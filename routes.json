@@ -1,6 +1,26 @@
 {
   "routes": [
     {
+      "route": "/",
+      "serve": "/index.html",
+      "statusCode": 200
+    },
+    {
+      "route": "/privacy-policy-TwentyOne",
+      "serve": "/TwentyOne/privacy-policy-TwentyOne.html",
+      "statusCode": 200
+    },
+    {
+      "route": "/eula-TwentyOne",
+      "serve": "/TwentyOne/eula-TwentyOne.html",
+      "statusCode": 200
+    },
+    {
+      "route": "/terms-and-conditions-TwentyOne",
+      "serve": "/TwentyOne/terms-and-conditions-TwentyOne.html",
+      "statusCode": 200
+    },
+    {
       "route": "/*",
       "serve": "/index.html",
       "statusCode": 200
